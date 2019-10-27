@@ -1,0 +1,227 @@
+<html>
+<head>
+<title>G++</title>
+<meta http-equiv=”Content-Type” content=”text/html; charset=iso-8859-1?>
+
+<?php
+  echo "First Name:"
+  ?>
+
+ 
+ <form method=post action="<? echo $PATH_INFO; ?>">
+<input type="Text" name="Texto" value="" size=30>
+<br>
+
+</form>
+ 
+ 
+ 
+ 
+ <?php
+ echo "Last Name:";
+ ?>
+  <form method=post action="<? echo $PATH_INFO; ?>">
+<input type="Text" name="Texto" value="" size=30>
+<br>
+</form>
+
+<?php
+echo"Phone Number:";
+?>
+    <select id=DDD>
+	<option value= "Select Your DDD">DDD</option>
+	 <option value="21" >21</option>
+	 <option value="68">69</option>
+	 <option value="82">82</option>
+	 <option value="96">96</option>
+	 <option Value="71">71</option>
+	 <option Value="88">88</option>
+	 <option value="61">62</option>
+	 <option Value="27">27</option>
+	 <option Value="62">62</option>
+	 <option value="98">98</option>
+	 <option Value="65">65</option>
+	 <option value="84">84</option>
+	 <option Value="31">31</option>
+	 <option Value="41">41</option>
+	 <option Value="83">83</option>
+	 <option Value="91">91</option>
+	 <option Value="81">81</option>
+	 <option Value="86">86</option>
+	 <option Value="21">21</option>
+	 <option Value="84">84</option>
+	 <option Value="51">51</option>
+	 <option Value="69">69</option>
+	 <option value="95">95</option>
+	 <option Value="48">48</option>
+	 <option Value="79">79</option>
+	 <option Value="11">11</option>
+	 <option Value="63">63</option>
+</Select>
+	
+<br><br>
+	
+	<form method=post action="<? echo $PATH_INFO; ?>">
+<input type="Text" name="Texto" value="" size=30>
+<br>
+
+</form>
+<?php
+echo "Email Address:";
+?>
+ <form method=post action="<? echo $PATH_INFO; ?>">
+<input type="Text" name="Texto" value="" size=30>
+<br>
+</form>
+
+<?php
+echo "Password:";
+?>
+</label>
+<br>
+<input type="password" id="pass" name="password"
+input type="pass" name="Password" value="" size=30>
+<br><br>
+</form>
+
+
+<?php
+echo "Confirm Password:";
+?>
+</label>
+<br>
+<input type="password" id="pass" name="password"
+input type="pass" name="Password" value="" size=30>
+<br><br>
+
+<?php
+echo "Select your City:"
+?>
+
+<br><br>
+
+ <select id=cbEstaddo>
+    <option value="" >Select Your City</option>
+    <option value="Jamvnopolis" >Jamvnopolis</option>
+    <option value="Rio Branco" >Rio Branco</option>
+    <option value="Macei?" >Macei?</option>
+	<option Value="Macap?">Macap?</option>
+	<option Value="Manaus">Manaus</option>
+	<option Value="Salvador">Salvador</option>
+	<option Value="Fortaleza">Fortaleza</option>
+	<option Value="Bras?lia">Bras?lia</option>
+	<option Value="Vit?ria">Vit?ria</option>
+	<option Value="Goi?nia">Goi?nia</option>
+	<option Value="S?o Lu?s">S?o Lu?s</option>
+	<option Value="Cuiab?">Cuiab?</option>
+	<option Value="Campo Grande">Campo Grande</option>
+	<option Value="Belo Horizonte">Belo Horizonte</option>
+	<option Value="Curitiba">Curitiba</option>
+	<option Value="Jo?o Pessoa">Jo?o Pessoa</option>
+	<option Value="Bel?m">Bel?m</option>
+	<option Value="Recife">Recife</option>
+	<option Value="Teresina">Teresina</option>
+	<option Value="Rio de Janeiro">Rio de Janeiro</option>
+	<option Value="Natal">Natal</option>
+	<option Value="Porto Alegre">Porto Alegre</option>
+	<option Value="Boa Vista">Boa Vista</option>
+	<option Value="Florian?polis"> Florian?polis</option>
+	<option Value="Aracaju">Aracaju</option>
+	<option Value="S?o Paulo">S?o Paulo</option>
+	<option Value="Palmas">Palmas</option>
+</select>
+
+<br><br>
+
+<?php
+
+       echo" Data de Nascimento:";
+
+?>
+   
+   
+ <select id=Dia>
+    <option value="Dia" >Dia</option>
+    <option value="01" >01</option>
+    <option value="02" >02</option>
+    <option value="03" >03</option>
+	<option Value="04">04</option>
+	<option Value="05">05</option>
+	<option Value="06">06</option>
+	<option Value="07">07</option>
+	<option Value="08">08</option>
+	<option Value="09">09</option>
+	<option Value="10">10</option>
+	<option Value="11">11</option>
+	<option Value="12">12</option>
+	<option Value="13">13</option>
+	<option Value="14">14</option>
+	<option Value="15">15</option>
+	<option Value="16">16</option>
+	<option Value="17">17</option>
+	<option Value="18">18</option>
+	<option Value="19">19</option>
+	<option Value="20">20</option>
+	<option Value="21">21</option>
+	<option Value="22">22</option>
+	<option Value="23">23</option>
+	<option Value="24">24</option>
+	<option Value="25">25</option>
+	<option Value="26">26</option>
+	<option Value="27">27</option>
+	<option Value="28">28</option>
+	<option Value="29">29</option>
+	<option Value="30">30</option>
+	<option Value="31">31</option>
+</select>
+   
+   <select id=M?s>
+    <option value="M?s" >M?s</option>
+    <option value="Janeiro" >Janeiro</option>
+	<option value="Fevereiro" >Fevereiro</option>
+	<option value="Mar?o" >Mar?o</option>
+	<option value="Abril" >Abril</option>
+	<option value="Maio" >Maio</option>
+	<option value="Junho" >Julho</option>
+	<option Value="Julho">Julho</option>
+	<option Value="Agosto">Agosto</option>
+	<option Value="Setembro">Setembro</option>
+	<option Value="Outubro">Outubro</option>
+	<option value="Novembro">Novembro</option>
+	<option Value="Dezembro">Dezembro</option>
+</select>
+   
+   <select id=Ano>
+   <option value="Ano" >Ano</option>
+   <option Value="2019">2019</option>
+   <option value="2018" >2018</option>
+   <option value="2017" >2017</option>
+   <option value="2016" >2016</option>
+   <option value="2015" >2015</option>
+   <option value="2014" >2014</option>
+   <option value="2013" >2013</option>
+   <option value="2012" >2012</option>
+   <option value="2011" >2011</option>
+   <option value="2010" >2010</option>
+   <option value="2009" >2009</option>
+   <option value="2008" >2008</option>
+   <option value="2007" >2007</option>
+   <option value="2006" >2006</option>
+   <option value="2005" >2005</option>
+   <option value="2004" >2004</option>
+   <option value="2003" >2003</option>
+   <option value="2002" >2002</option>
+   <option value="2001" >2001</option>
+   <option value="2000" >2000</option>
+   <option value="1999" >1999</option>
+   <option value="1998" >1998</option>
+</select>
+
+<br><br>
+
+<button type="Submit" class="Submi" name="Submit" id="Submit">Cadastre-se
+</button>
+</Meta> 
+</form>
+</body>
+</html>	
